@@ -9,10 +9,10 @@ void func1() {}     // demo function
 void func2() {}     // demo function
 
 int main() {
-    clock_t start;      //assign
-    clock_t end;        //assign
-    float first;        //assign?
-    float second;       //assign?
+    clock_t start;
+    clock_t end;
+    float first;
+    float second;
 
     // bench setup
 
