@@ -4,9 +4,6 @@
 // add includes for bench:
 
 
-// set run repetitions:
-const __int64_t RUNS = 65536;
-
 // add variables for bench:
 
 // __int64_t a = 0;
@@ -19,6 +16,9 @@ void func2() {}         // demo function
 
 
 int main() {
+    // set run repetitions:
+    const __int64_t RUNS = 65536;
+    
     clock_t start;
     clock_t end;
     float first;
