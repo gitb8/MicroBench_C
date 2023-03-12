@@ -19,8 +19,8 @@ int main() {
     // set run repetitions:
     const __int64_t RUNS = 65536;
     
-    clock_t start;
-    clock_t end;
+    clock_t start = clock();
+    clock_t end = clock();
     float first;
     float second;
 
